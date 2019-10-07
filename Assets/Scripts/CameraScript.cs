@@ -18,4 +18,9 @@ public class CameraScript : MonoBehaviour
         transform.position = player.transform.position;
         transform.Translate(new Vector3(0, 0, -10));
     }
+
+    public void Interact()
+    {
+        Debug.Log("This will never run what are you doing.");
+    }
 }
